@@ -65,3 +65,61 @@
 
 
 
+
+.first-float > div{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
+}
+.first-float::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.second-float > div{
+    float: left;
+    background-color: aquamarine;
+}
+.second-float::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.s-f-first > div{
+    width: 600px;
+    height: 150px;
+}
+.s-f-first + div > div{
+    width: 300px;
+    height: 100px;
+}
+
+.third-float > div{
+    float: left;
+    background-color: darkcyan;
+}
+.third-float::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.third-float > div{
+    width: 300px;
+    height: 300px;
+}
+.third-float > div + div{
+    width: 600px;
+}
+.t-f-first > div{
+    height: 150px;
+}
+.t-f-second > div{
+    float: left;
+    width: 300px;
+    height: 150px;
+}
+.t-f-second > div + div > div{
+    height: 75px;
+}
