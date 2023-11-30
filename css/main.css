@@ -123,3 +123,14 @@
 .t-f-second > div + div > div{
     height: 75px;
 }
+
+footer{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+footer > a{
+    color: white;
+    font-size: 40px;
+}
