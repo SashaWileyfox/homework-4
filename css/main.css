@@ -134,3 +134,37 @@ footer > a{
     color: white;
     font-size: 40px;
 }
+
+/* added flex */
+
+.flex{
+    display: flex;
+}
+.first-flex{
+    background-color: aquamarine;
+    height: 300px;
+}
+.second-flex{
+    background-color: coral;
+    height: 300px;
+}
+.second-flex :first-child > div{
+    width: 600px;
+    height: 50%;
+}
+.second-flex div + div > div{
+    width: 300px;
+    height: 33.333%;
+}
+.third-flex{
+    background-color: blue;
+    height: 300px;
+}
+.height-first{
+    height: 150px;
+}
+.height-second > div{
+    height: 50%;
+}
+
+
